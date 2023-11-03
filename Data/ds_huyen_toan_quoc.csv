@@ -1,0 +1,741 @@
+id,title
+80505,Huyện An Phú
+80511,Huyện Châu Phú
+80519,Huyện Châu Thành
+80517,Huyện Chợ Mới
+80509,Huyện Phú Tân
+80521,Huyện Thoại Sơn
+80515,Huyện Tri Tôn
+80501,Thành phố Long Xuyên
+80513,Thị Xã Tịnh Biên
+80503,Thị xã Châu Đốc
+80507,Thị xã Tân Châu
+71705,Huyện Châu Đức
+71713,Huyện Côn Đảo
+71711,Huyện Long Điền
+71707,Huyện Xuyên Mộc
+71712,Huyện Đất Đỏ
+71703,Thành Phố Bà Rịa
+71701,Thành phố Vũng Tàu
+71709,Thị xã Phú Mỹ
+71115,Huyện Bàu Bàng
+71117,Huyện Bắc Tân Uyên
+71113,Huyện Dầu tiếng
+71111,Huyện Phú Giáo
+71109,Thành phố  Dĩ An
+71107,Thành phố Thuận An
+71101,Thành phố Thủ Dầu Một
+71105,Thành phố Tân Uyên
+71103,Thị Xã  Bến Cát
+70715,Huyện Bù Gia Mập
+70707,Huyện Bù Đăng
+70706,Huyện Bù Đốp
+70713,Huyện Hớn Quản
+70705,Huyện Lộc Ninh
+70716,Huyện Phú Riềng
+70701,Huyện Đồng Phú
+70709,Thị xã  Bình Long
+70703,Thị xã  Phước Long
+70710,Thị xã Chơn Thành
+70711,Thị xã Đồng Xoài
+71505,Huyện Bắc Bình
+71507,Huyện Hàm Thuận Bắc
+71509,Huyện Hàm Thuận Nam
+71514,Huyện Hàm Tân
+71517,Huyện Phú Quý
+71503,Huyện Tuy Phong
+71511,Huyện Tánh Linh
+71515,Huyện Đức Linh
+71501,Thành phố  Phan Thiết
+71513,Thị xã La Gi
+50703,Huyện An Lão
+50707,Huyện Hoài Ân
+50713,Huyện Phù Cát
+50709,Huyện Phù Mỹ
+50719,Huyện Tuy Phước
+50715,Huyện Tây Sơn
+50721,Huyện Vân Canh
+50711,Huyện Vĩnh Thạnh
+50701,Thành phố Quy Nhơn
+50717,Thị xã An Nhơn
+50705,Thị xã Hoài Nhơn
+82106,Huyện Hoà Bình
+82103,Huyện Hồng Dân
+82109,Huyện Phước Long
+82105,Huyện Vĩnh Lợi
+82111,Huyện Đông Hải
+82101,Thành Phố Bạc Liêu
+82107,Thị Xã Giá Rai
+20703,Huyện Ba Bể
+20711,Huyện Bạch Thông
+20713,Huyện Chợ mới
+20707,Huyện Chợ Đồn
+20709,Huyện Na Rì
+20705,Huyện Ngân Sơn
+20704,Huyện Pác Nặm
+20701,Thành phố Bắc Kạn
+22109,Huyện Hiệp Hoà
+22111,Huyện Lạng Giang
+22115,Huyện Lục Nam
+22107,Huyện Lục Ngạn
+22113,Huyện Sơn Động
+22105,Huyện Tân Yên
+22117,Huyện Việt Yên
+22119,Huyện Yên Dũng
+22103,Huyện Yên Thế
+22101,Thành phố  Bắc Giang
+22315,Huyện Gia Bình
+22311,Huyện Lương Tài
+22305,Huyện Quế Võ
+22307,Huyện Tiên Du
+22303,Huyện Yên Phong
+22301,Thành phố Bắc Ninh
+22313,Thành phố Từ Sơn
+22309,Thị xã Quế Võ
+81113,Huyện Ba Tri
+81111,Huyện Bình Đại
+81103,Huyện Châu Thành
+81105,Huyện Chợ Lách
+81109,Huyện Giồng Trôm
+81108,Huyện Mỏ Cày Bắc
+81107,Huyện Mỏ Cày Nam
+81115,Huyện Thạnh Phú
+81101,Thành phố Bến Tre
+20323,Huyện Bảo Lâm
+20303,Huyện Bảo Lạc
+20315,Huyện Hoà An
+20305,Huyện Hà Quảng
+20319,Huyện Hạ Lang
+20313,Huyện Nguyên Bình
+20318,Huyện Phục Hoà (hết hiệu lực)
+20325,Huyện Quảng Hòa (hết hiệu lực)
+20317,Huyện Quảng Uyên (hết hiệu lực)
+20307,Huyện Thông Nông (hết hiệu lực)
+20321,Huyện Thạch An
+20309,Huyện Trà Lĩnh (hết hiệu lực)
+20311,Huyện Trùng Khánh
+20301,Thành phố Cao Bằng
+82309,Huyện Cái Nước
+82313,Huyện Ngọc Hiển
+82312,Huyện Năm Căn
+82308,Huyện Phú Tân
+82303,Huyện Thới Bình
+82307,Huyện Trần Văn Thời
+82305,Huyện U Minh
+82311,Huyện Đầm Dơi
+82301,Thành phố  Cà Mau
+81507,Huyện Châu Thành (hêt h.lực)
+81517,Huyện Châu Thành A (hêt h.lực)
+81527,Huyện Cờ Đỏ
+81513,Huyện Long Mỹ (hêt h.lực)
+81529,Huyện Phong Điền
+81509,Huyện Phụng Hiệp (hêt h.lực)
+81531,Huyện Thới Lai
+81525,Huyện Vĩnh Thạnh
+81515,Huyện Vị Thuỷ (hêt h.lực)
+81521,Quận Bình Thuỷ
+81523,Quận Cái Răng
+81519,Quận Ninh Kiều
+81503,Quận Thốt Nốt
+81505,Quận Ô Môn
+81501,Thành phố Cần Thơ (hêt h.lực)
+81511,Thị xã Vị Thanh (hêt h.lực)
+60317,Huyện Chư Prông
+60307,Huyện Chư Păh
+60331,Huyện Chư Pưh
+60319,Huyện Chư Sê
+60309,Huyện Ia Grai
+60320,Huyện IaPa
+60303,Huyện Kbang
+60323,Huyện Krông Pa
+60313,Huyện Kông Chro
+60305,Huyện Mang Yang
+60329,Huyện Phú Thiện
+60325,Huyện Đak Đoa
+60327,Huyện ĐakPơ
+60315,Huyện Đức Cơ
+60301,Thành phố  Pleiku
+60311,Thị xã An Khê
+60321,Thị xã Ayun Pa
+20111,Huyện Bắc Mê
+20119,Huyện Bắc Quang
+20113,Huyện Hoàng Su Phì
+20105,Huyện Mèo Vạc
+20118,Huyện Quang Bình
+20109,Huyện Quản Bạ
+20115,Huyện Vị Xuyên
+20117,Huyện Xín Mần
+20107,Huyện Yên Minh
+20103,Huyện Đồng Văn
+20101,TP Hà Giang
+11111,Huyện Bình Lục
+11105,Huyện Kim Bảng
+11107,Huyện Lý Nhân
+11109,Huyện Thanh Liêm
+11101,Thành phố Phủ Lý
+11103,Thị xã Duy Tiên
+10151,Huyện Ba Vì
+10153,Huyện Chương Mỹ
+10119,Huyện Gia Lâm
+10137,Huyện Hoài Đức
+10125,Huyện Mê Linh
+10145,Huyện Mỹ Đức
+10149,Huyện Phú Xuyên
+10131,Huyện Phúc Thọ
+10139,Huyện Quốc Oai
+10115,Huyện Sóc sơn
+10141,Huyện Thanh Oai
+10123,Huyện Thanh Trì
+10143,Huyện Thường Tín
+10135,Huyện Thạch Thất
+10121,Huyện Từ Liêm
+10133,Huyện Đan Phượng
+10117,Huyện Đông Anh
+10147,Huyện ứng Hoà
+10101,Quận Ba Đình
+10157,Quận Bắc Từ Liêm
+10113,Quận Cầu Giấy
+10107,Quận Hai Bà Trưng
+10105,Quận Hoàn Kiếm
+10108,Quận Hoàng Mai
+10127,Quận Hà Đông
+10106,Quận Long Biên
+10155,Quận Nam Từ Liêm
+10111,Quận Thanh Xuân
+10103,Quận Tây Hồ
+10109,Quận Đống đa
+10129,Thị xã Sơn Tây
+40511,Huyện Can Lộc
+40515,Huyện Cẩm Xuyên
+40517,Huyện Hương Khê
+40509,Huyện Hương Sơn
+40523,Huyện Lộc Hà
+40505,Huyện Nghi Xuân
+40513,Huyện Thạch Hà
+40521,Huyện Vũ Quang
+40507,Huyện Đức Thọ
+40501,Thành phố Hà Tĩnh
+40519,Thị trấn Kỳ Anh
+40503,Thị xã Hồng Lĩnh
+40520,Thị xã Kỳ Anh
+30510,Huyện Cao Phong
+30511,Huyện Kim Bôi
+30507,Huyện Kỳ Sơn (hết hiệu lực)
+30509,Huyện Lương Sơn
+30515,Huyện Lạc Sơn
+30517,Huyện Lạc Thuỷ
+30505,Huyện Mai Châu
+30513,Huyện Tân Lạc
+30519,Huyện Yên Thuỷ
+30503,Huyện Đà Bắc
+30501,Thành phố Hoà Bình
+10905,Huyện Khoái Châu
+10909,Huyện Kim Động
+10911,Huyện Phù Cừ
+10913,Huyện Tiên Lữ
+10915,Huyện Văn Giang
+10917,Huyện Văn Lâm
+10919,Huyện Yên Mỹ
+10907,Huyện Ân Thi
+10901,Thành phố Hưng yên
+10903,Thị xã Mỹ Hào
+10719,Huyện Bình Giang
+10717,Huyện Cẩm Giàng
+10713,Huyện Gia Lộc
+10711,Huyện Kim Thành
+10709,Huyện Kinh Môn
+10705,Huyện Nam Sách
+10723,Huyện Ninh Giang
+10707,Huyện Thanh Hà
+10721,Huyện Thanh Miện
+10715,Huyện Tứ Kỳ
+10701,Thành phố Hải Dương
+10703,Thị xã Chí Linh
+10313,Huyện An Dương
+10315,Huyện An Lão
+10325,Huyện Bạch Long Vĩ
+10323,Huyện Cát Hải
+10317,Huyện Kiến Thuỵ
+10311,Huyện Thuỷ Nguyên
+10319,Huyện Tiên Lãng
+10321,Huyện Vĩnh Bảo
+10327,Quận Dương Kinh
+10304,Quận Hải An
+10301,Quận Hồng Bàng
+10307,Quận Kiến An
+10305,Quận Lê Chân
+10303,Quận Ngô Quyền
+10309,Quận Đồ Sơn
+9003,Thành Phố Hải Phòng
+81605,Huyện Châu Thành
+81603,Huyện Châu Thành A
+81611,Huyện Long Mỹ
+81608,Huyện Phụng Hiệp
+81609,Huyện Vị Thủy
+81607,Thành phố Ngã Bảy
+81612,Thị Xã Long Mỹ
+81601,Tp Vị Thanh
+51117,Huyện Cam Lâm
+51107,Huyện Diên Khánh
+51111,Huyện KHánh Vĩnh
+51113,Huyện Khánh Sơn
+51115,Huyện Trường Sa
+51103,Huyện Vạn Ninh
+51109,Thành phố Cam Ranh
+51101,Thành phố Nha Trang
+51105,Thị xã Ninh Hoà
+81315,Huyện An Biên
+81317,Huyện An Minh
+81309,Huyện Châu Thành
+81304,Huyện Giang Thành
+81311,Huyện Giồng Riềng
+81313,Huyện Gò Quao
+81305,Huyện Hòn Đất
+81323,Huyện Kiên Hải
+81303,Huyện Kiên Lương
+81307,Huyện Tân Hiệp
+81327,Huyện U Minh Thượng
+81319,Huyện Vĩnh Thuận
+81321,Thành phố Phú Quốc
+81301,Thành phố Rạch Giá
+81325,Thị xã Hà tiên
+60115,Huyện  Tu Mơ Rông
+60114,Huyện Ia H'Drai
+60109,Huyện Kon Plông
+60108,Huyện Kon Rẫy
+60105,Huyện Ngọc Hồi
+60113,Huyện Sa Thầy
+60111,Huyện Đăk Hà
+60107,Huyện Đăk Tô
+60103,Huyện Đắk Glei
+60101,Thành phố Kon Tum
+30201,Huyện Mường Tè
+30213,Huyện Nậm Nhùn
+30203,Huyện Phong Thổ
+30207,Huyện Sìn Hồ
+30205,Huyện Tam Đường
+30209,Huyện Than Uyên
+30211,Huyện Tân Uyên
+30202,Thành phố Lai Châu
+80117,Huyện Bến Lức
+80121,Huyện Châu Thành
+80127,Huyện Cần Giuộc
+80125,Huyện Cần Đước
+80107,Huyện Mộc Hoá
+80111,Huyện Thạnh Hoá
+80119,Huyện Thủ Thừa
+80103,Huyện Tân Hưng
+80109,Huyện Tân Thạnh
+80123,Huyện Tân Trụ
+80105,Huyện Vĩnh Hưng
+80115,Huyện Đức Hoà
+80113,Huyện Đức Huệ
+80101,Thành phố Tân An
+80129,Thị xã Kiến Tường
+20507,Huyện Bát Xát
+20511,Huyện Bảo Thắng
+20515,Huyện Bảo Yên
+20509,Huyện Bắc Hà
+20505,Huyện Mường Khương
+20521,Huyện Si Ma Cai
+20517,Huyện Than Uyên (hêt h.lực)
+20519,Huyện Văn Bàn
+20501,Thành phố  Lào Cai
+20503,Thị xã Cam Đường (hêt h.lực)
+20513,Thị xã Sa Pa
+70313,Huyện Bảo Lâm
+70321,Huyện Cát Tiên
+70315,Huyện Di Linh
+70311,Huyện Lâm Hà
+70305,Huyện Lạc Dương
+70323,Huyện Đam Rông
+70307,Huyện Đơn Dương
+70317,Huyện Đạ Huoai
+70319,Huyện Đạ Tẻh
+70309,Huyện Đức Trọng
+70303,Thành phố Bảo Lộc
+70301,Thành phố Đà Lạt
+20907,Huyện Bình Gia
+20909,Huyện Bắc Sơn
+20913,Huyện Cao Lộc
+20917,Huyện Chi Lăng
+20921,Huyện Hữu Lũng
+20915,Huyện Lộc Bình
+20903,Huyện Tràng Định
+20905,Huyện Văn Lãng
+20911,Huyện Văn Quan
+20919,Huyện Đình Lập
+20901,Thành phố Lạng Sơn
+11315,Huyện Giao Thuỷ
+11319,Huyện Hải Hậu
+11305,Huyện Mỹ Lộc
+11309,Huyện Nam Trực
+11317,Huyện Nghĩa Hưng
+11311,Huyện Trực Ninh
+11303,Huyện Vụ Bản
+11313,Huyện Xuân Trường
+11307,Huyện Ý Yên
+11301,Thành phố Nam Đinh
+40327,Huyện Anh SƠn
+40321,Huyện Con Cuông
+40325,Huyện Diễn Châu
+40337,Huyện Hưng Nguyên
+40309,Huyện Kỳ Sơn
+40335,Huyện Nam Đàn
+40333,Huyện Nghi Lộc
+40313,Huyện Nghĩa Đàn
+40305,Huyện Quế Phong
+40307,Huyện Quỳ Châu
+40311,Huyện Quỳ Hợp
+40317,Huyện Quỳnh Lưu
+40331,Huyện Thanh Chương
+40319,Huyện Tân Kỳ
+40315,Huyện Tương Dương
+40323,Huyện Yên THành
+40329,Huyện Đô Lương
+40301,Thành phố Vinh
+40303,Thị xã Cửa Lò
+40339,Thị xã Hoàng Mai
+40314,Thị xã Thái Hoà
+11707,Huyện Gia Viễn
+11709,Huyện Hoa Lư
+11715,Huyện Kim Sơn
+11705,Huyện Nho quan
+11713,Huyện Yên Khánh
+11711,Huyện Yên Mô
+11701,Thành phố Ninh Bình
+11703,Thành phố Tam Điệp
+70509,Huyện Bác ái
+70505,Huyện Ninh Hải
+70507,Huyện Ninh Phước
+70503,Huyện Ninh Sơn
+70511,Huyện Thuận Bắc
+70513,Huyện Thuận Nam
+70501,TP. Phan Rang-Tháp Chàm
+21713,Huyện Cẩm Khê
+21707,Huyện Hạ Hoà
+21721,Huyện Lâm Thao
+21711,Huyện Phù Ninh
+21717,Huyện Tam Nông
+21709,Huyện Thanh Ba
+21719,Huyện Thanh Sơn
+21723,Huyện Thanh Thuỷ
+21725,Huyện Tân Sơn
+21720,Huyện Tân Sơn
+21715,Huyện Yên Lập
+21705,Huyện Đoan Hùng
+21701,Thành phố Việt Trì
+21703,Thị xã Phú Thọ
+50912,Huyện  Tây  Hoà
+50915,Huyện Phú Hoà
+50913,Huyện Sông Hinh
+50909,Huyện Sơn Hoà
+50907,Huyện Tuy An
+50903,Huyện Đồng Xuân
+50901,TP Tuy Hoà
+50905,Thị xã Sông Cầu
+50911,Thị xã Đông Hòa
+40709,Huyện Bố Trạch
+40713,Huyện Lệ Thuỷ
+40705,Huyện Minh Hoá
+40711,Huyện Quảng Ninh
+40707,Huyện Quảng Trạch
+40703,Huyện Tuyên Hoá
+40701,Thành phố Đồng Hới
+40715,Thị Xã Ba Đồn
+50327,Huyện Bắc Trà My
+50311,Huyện Duy Xuyên
+50319,Huyện Hiệp Đức
+50313,Huyện Nam Giang
+50329,Huyện Nam Trà My
+50318,Huyện Nông Sơn
+50325,Huyện Núi Thành
+50302,Huyện Phú Ninh
+50323,Huyện Phước Sơn
+50317,Huyện Quế Sơn
+50315,Huyện Thăng Bình
+50321,Huyện Tiên Phước
+50304,Huyện Tây Giang
+50305,Huyện Đông Giang
+50307,Huyện Đại Lộc
+50303,Thành phố Hội An
+50301,Thành phố Tam Kỳ
+50309,Thị Xã Điện Bàn
+50525,Huyện Ba Tơ
+50505,Huyện Bình Sơn
+50503,Huyện Lý Sơn
+50519,Huyện Minh Long
+50521,Huyện Mộ Đức
+50517,Huyện Nghĩa Hành
+50513,Huyện Sơn Hà
+50511,Huyện Sơn Tây
+50509,Huyện Sơn Tịnh
+50507,Huyện Trà Bồng
+50508,Huyện Tây Trà (hết hiệu lực)
+50515,Huyện Tư Nghĩa
+50501,Thành phố Quảng Ngãi
+50523,Thị xã Đức Phổ
+22515,Huyện Ba Chẽ
+22507,Huyện Bình Liêu
+22523,Huyện Cô Tô
+22519,Huyện Hoành Bồ (hết hiệu lực)
+22511,Huyện Hải Hà
+22513,Huyện Tiên Yên
+22517,Huyện Vân Đồn
+22527,Huyện Đầm Hà
+22501,Thành phố Hạ Long
+22509,Thành phố Móng cái
+22505,Thành phố Uông Bí
+22503,Thị xã Cẩm Phả
+22525,Thị xã Quảng Yên
+22521,Thị xã Đông Triều
+40909,Huyện Cam Lộ
+40907,Huyện Gio Linh
+40915,Huyện Hướng Hoá
+40913,Huyện Hải Lăng
+40911,Huyện Triệu Phong
+40905,Huyện Vĩnh Linh
+40917,Huyện Đa Krông
+40919,Huyện Đảo Cồn Cỏ
+40903,Thị xã Quảng Trị
+40901,Thị xã Đông Hà
+81915,Huyện Châu Thành
+81906,Huyện Cù Lao Dung
+81903,Huyện Kế Sách
+81905,Huyện Long Phú
+81909,Huyện Mỹ Xuyên
+81907,Huyện Mỹ tú
+81911,Huyện Thạnh Trị
+81917,Huyện Trần Đề
+81901,Thành phố Sóc Trăng
+81912,Thị Xã Ngã Năm
+81913,Thị Xã Vĩnh Châu
+30309,Huyện Bắc Yên
+30313,Huyện Mai Sơn
+30305,Huyện Mường La
+30319,Huyện Mộc Châu
+30311,Huyện Phù Yên
+30303,Huyện Quỳnh Nhai
+30315,Huyện Sông Mã
+30321,Huyện Sốp Cộp
+30307,Huyện Thuận Châu
+30323,Huyện Vân Hồ
+30317,Huyện Yên Châu
+30301,Thành phố Sơn La
+70139,Huyện Bình Chánh
+70143,Huyện Cần Giờ
+70135,Huyện Củ Chi
+70137,Huyện Hóc Môn
+70141,Huyện Nhà Bè
+70101,Quận 1
+70119,Quận 10
+70121,Quận 11
+70123,Quận 12
+70103,Quận 2 (Hết hiệu lực)
+70105,Quận 3
+70107,Quận 4
+70109,Quận 5
+70111,Quận 6
+70113,Quận 7
+70115,Quận 8
+70117,Quận 9 (Hết hiệu lực)
+70129,Quận Bình Thạnh
+70134,Quận Bình Tân
+70125,Quận Gò Vấp
+70131,Quận Phú Nhuận
+70133,Quận Thủ Đức (Hết hiệu lực)
+70127,Quận Tân Bình
+70128,Quận Tân phú
+70145,Thành phố Thủ Đức
+40113,Huyện Bá Thước
+40115,Huyện Cẩm Thuỷ
+40143,Huyện Hoằng Hoá
+40131,Huyện Hà Trung
+40139,Huyện Hậu Lộc
+40117,Huyện Lang Chánh
+40107,Huyện Mường Lát
+40133,Huyện Nga Sơn
+40121,Huyện Ngọc Lặc
+40127,Huyện Như Thanh
+40125,Huyện Như Xuân
+40151,Huyện Nông Cống
+40109,Huyện Quan Hoá
+40111,Huyện Quan Sơn
+40149,Huyện Quảng Xương
+40141,Huyện Thiệu Hoá
+40123,Huyện Thường Xuân
+40119,Huyện Thạch Thành
+40137,Huyện Thọ Xuân
+40147,Huyện Triệu Sơn
+40129,Huyện Vĩnh Lộc
+40135,Huyện Yên Định
+40145,Huyện Đông Sơn
+40105,Thành Phố Sầm Sơn
+40101,Thành phố Thanh Hoá
+40103,Thị xã Bỉm Sơn
+40153,Thị xã Nghi Sơn
+11505,Huyện Hưng Hà
+11513,Huyện Kiến Xương
+11503,Huyện Quỳnh Phụ
+11507,Huyện Thái Thụy
+11515,Huyện Tiền Hải
+11511,Huyện Vũ Thư
+11509,Huyện Đông Hưng
+11501,Thành phố Thái Bình
+21515,Huyện Phú Bình
+21509,Huyện Phú Lương
+21507,Huyện Võ Nhai
+21513,Huyện Đại Từ
+21505,Huyện Định Hoá
+21511,Huyện Đồng Hỷ
+21503,Thành Phố Sông Công
+21517,Thành phố Phổ Yên
+21501,Thành phố Thái Nguyên
+41115,Huyện A Lưới
+41117,Huyện Nam Đông
+41103,Huyện Phong ĐIền
+41113,Huyện Phú Lộc
+41109,Huyện Phú Vang
+41105,Huyện Quảng ĐIền
+41101,Thành phố Huế
+41107,Thị Xã Hương Trà
+41111,Thị xã  Hương Thuỷ
+80709,Huyện Cai Lậy
+80707,Huyện Châu Thành
+80711,Huyện Chợ Gạo
+80713,Huyện Cái Bè
+80715,Huyện Gò Công Tây
+80717,Huyện Gò Công Đông
+80719,Huyện Tân Phú Đông
+80705,Huyện Tân Phước
+80701,Thành phố Mỹ Tho
+80721,Thị Xã Cai Lậy
+80703,Thị xã Gò Công
+81705,Huyện Châu Thành
+81703,Huyện Càng Long
+81707,Huyện Cầu Kè
+81711,Huyện Cầu Ngang
+81715,Huyện Duyên Hải
+81709,Huyện Tiểu Cần
+81713,Huyện Trà Cú
+81701,Thành phố Trà Vinh
+81716,Thị xã Duyên Hải
+21105,Huyện Chiêm Hoá
+21107,Huyện Hàm Yên
+21113,Huyện Lâm Bình
+21103,Huyện Na Hang
+21111,Huyện Sơn Dương
+21109,Huyện Yên Sơn
+21101,Thành Phố Tuyên Quang
+70913,Huyện Bến Cầu
+70909,Huyện Châu Thành
+70907,Huyện Dương Minh Châu
+70915,Huyện Gò Dầu
+70917,Huyện Trảng Bàng
+70903,Huyện Tân Biên
+70905,Huyện Tân Châu
+70901,Thành phố Tây Ninh
+70911,Thị xã Hoà Thành
+80908,Huyện Bình Tân
+80903,Huyện Long Hồ
+80905,Huyện Mang Thít
+80909,Huyện Tam Bình
+80911,Huyện Trà Ôn
+80913,Huyện Vũng Liêm
+80901,Thành phố  Vĩnh Long
+80907,Thị xã Bình Minh
+21913,Huyện Bình Xuyên
+21903,Huyện Lập Thạch
+21911,Huyện Mê Linh (Chuyển Hà Nội)
+21915,Huyện Sông Lô
+21905,Huyện Tam Dương
+21904,Huyện Tam Đảo
+21907,Huyện Vĩnh Tường
+21909,Huyện Yên Lạc
+21902,Thành phố Phúc Yên
+21901,Thành phố Vĩnh Yên
+21305,Huyện Lục Yên
+21309,Huyện Mù Cang Chải
+21317,Huyện Trạm Tấu
+21311,Huyện Trấn Yên
+21315,Huyện Văn Chấn
+21307,Huyện Văn Yên
+21313,Huyện Yên Bình
+21301,Thành phố  Yên Bái
+21303,Thị xã Nghĩa Lộ
+30111,Huyện Mường Chà
+30104,Huyện Mường Nhé
+30105,Huyện Mường Tè (hêt h.lực)
+30121,Huyện Mường ảng
+30123,Huyện Nậm Pồ
+30107,Huyện Phong Thổ (hêt h.lực)
+30109,Huyện Sìn Hồ (hêt h.lực)
+30108,Huyện Tam Đường (hêt h.lực)
+30115,Huyện Tuần Giáo
+30113,Huyện Tủa Chùa
+30117,Huyện Điện Biên
+30119,Huyện Điện Biên Đông
+30101,TP Điện Biên Phủ
+30103,Thị xã Mường Lay
+50111,Huyện Hoà Vang
+50113,Huyện Đảo Hoàng Sa
+50115,Quận Cẩm Lệ
+50101,Quận Hải Châu
+50109,Quận Liên Chiểu
+50107,Quận Ngũ Hành Sơn
+50105,Quận Sơn Trà
+50103,Quận Thanh Khê
+60511,Huyện Buôn Đôn
+60521,Huyện Cư Jút (hêt h.lực)
+60537,Huyện Cư Kuin
+60534,Huyện Cư Kuin
+60513,Huyện Cư M'gar
+60503,Huyện Ea H'leo
+60515,Huyện Ea Kar
+60505,Huyện Ea Súp
+60523,Huyện Krông A Na
+60539,Huyện Krông Buk
+60525,Huyện Krông Bông
+60529,Huyện Krông Nô (hêt h.lực)
+60507,Huyện Krông Năng
+60519,Huyện Krông Pắc
+60531,Huyện Lắk
+60517,Huyện M'ĐrắK
+60527,Huyện Đắk Mil (hêt h.lực)
+60535,Huyện Đắk Nông (hêt h.lực)
+60533,Huyện Đắk R'Lấp (hêt h.lực)
+60532,Huyện Đắk Song (hêt h.lực)
+60501,TP.Buôn Ma Thuột
+60509,Thị xã Buôn Hồ
+60603,Huyện Cư Jút
+60605,Huyện Krông Nô
+60617,Huyện Tuy Đức
+60615,Huyện Đắk Glong
+60607,Huyện Đắk Mil
+60601,Huyện Đắk Nông (hêt h.lực)
+60611,Huyện Đắk R'Lấp
+60609,Huyện Đắk Song
+60613,Thành phố Gia Nghĩa
+71311,Huyện Cẩm Mỹ
+71315,Huyện Long Thành
+71317,Huyện Nhơn Trạch
+71309,Huyện Thống Nhất
+71308,Huyện Trảng Bom
+71303,Huyện Tân Phú
+71307,Huyện Vĩnh Cửu
+71313,Huyện Xuân Lộc
+71305,Huyện Định Quán
+71302,Thành Phố Long Khánh
+71301,Thành phố Biên Hoà
+80315,Huyện Cao Lãnh
+80321,Huyện Châu Thành
+80307,Huyện Hồng Ngự
+80319,Huyện Lai Vung
+80317,Huyện Lấp Vò
+80309,Huyện Tam Nông
+80311,Huyện Thanh Bình
+80313,Huyện Tháp mười
+80305,Huyện Tân Hồng
+80301,Thành phố Cao Lãnh
+80323,Thành phố Hồng Ngự
+80303,Thành phố Sa Đéc
