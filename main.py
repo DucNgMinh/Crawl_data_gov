@@ -6,17 +6,22 @@ import pytesseract
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service 
+from selenium.webdriver.chrome.options import Options
 import re
 import time
 
-ds_xa = [ 8051905, 8051911, 8051907, 8051923]
-
-index = 0
+try:
+    df = pd.read_csv(r'C:\Users\Admin\PycharmProjects\Crawl_data_gov\remain_crawl_code_list_hcm.csv')
+    crawl_code_list = df['remained_code'].values.tolist()
+except:
+    df = pd.read_csv(r'C:\Users\Admin\PycharmProjects\Crawl_data_gov\ds_code_crawl_hcm.csv')
+    crawl_code_list = df['crawl_code'].values.tolist()
 
 def get_captcha(driver):
     # Lấy bản chụp màn hình dưới dạng dữ liệu PNG
     screenshot = driver.get_screenshot_as_png()
-
+    # driver.save_screebshot("screenshot.png")
+    # cv2.imwrite("screenshot.png", screenshot)
     # Chuyển đổi dữ liệu PNG thành mảng NumPy
     screenshot_array = np.frombuffer(screenshot, np.uint8)
 
@@ -24,7 +29,7 @@ def get_captcha(driver):
     image = cv2.imdecode(screenshot_array, cv2.IMREAD_COLOR)
 
     # Cắt ảnh
-    x1, y1, x2, y2 = (700, 563, 837, 613)
+    x1, y1, x2, y2 = (817, 667, 994, 735)
     crop = image[y1:y2, x1:x2]
     cv2.imwrite("crop.png", crop)
 
@@ -86,12 +91,11 @@ def refresh_captcha(driver):
 def main():
     global index
     pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
-    path = r'C:\Users\Admin\Documents\OneNoteNotebooks\20222\BigData\chromedriver.exe'
+    path = r'C:\Users\Admin\PycharmProjects\Crawl_data_gov\chromedriver-win64\chromedriver.exe'
     service = Service(path)
     driver = webdriver.Chrome(service=service)
-
+    driver.set_window_size(1024, 768)
     # Truy cập trang web
-    
 
     while True:
         driver.get("https://www.gdt.gov.vn/wps/portal/home/hct")
@@ -106,41 +110,73 @@ def main():
     
 
     # ds_xa = [1015149, 1015135, 1015139, 1015131, 1015121, 1015107, 1015123]
-    for i in range(len(ds_xa)):
-        xa = ds_xa[i]
+    for i in range(len(crawl_code_list)):
+        code = crawl_code_list[i]
         index = i
-        xa = str(xa)
-        tinh = str(xa[:3])
-        huyen = str(xa[:5])
-        search_types = {'11':'/html/body/div[4]/table',
+        tinh = str(code[:3])
+        huyen = str(code[:5])
+        xa = str(code[:7])
+        search_types = str(code[-2:])
+        search_types_html = {'11':'/html/body/div[4]/table',
                         '10':'/html/body/table',
                         '12':'/html/body/div[4]/table',
                         '03':'/html/body/div[4]/table',
                         '04':'/html/body/table'}
         
-        for type in search_types:
-            df = pd.DataFrame()
-            for page in range(1,100):
-                url = f"https://www.gdt.gov.vn/TTHKApp/jsp/results.jsp?maTinh={tinh}&maHuyen={huyen}&maXa={xa}&kyLb=&searchType={type}&captcha={captcha}&pageNumber={page}"
-                driver.get(url)
+        start_time = time.time()
+        df = pd.DataFrame()
+        page = 1
+        while True:
+            url = f"https://www.gdt.gov.vn/TTHKApp/jsp/results.jsp?maTinh={tinh}&maHuyen={huyen}&maXa={xa}&kyLb=&searchType={search_types}&captcha={captcha}&pageNumber={page}"
+            driver.get(url)
 
-                notify_element = driver.find_element(By.XPATH, '/html/body/div[1]')
-                if notify_element.text == "Không tìm thấy kết quả":
-                    break
+            notify_element = driver.find_element(By.XPATH, '/html/body/div[1]')
+            if notify_element.text == "Không tìm thấy kết quả":
+                i += 1
+                break
 
-                table_element = driver.find_element(By.XPATH,search_types[type])
-                tables = pd.read_html(table_element.get_attribute("outerHTML"))
-                if len(tables[0]) < 5:
-                    break
-                tables[0]['mã_tỉnh'] = tinh
-                tables[0]['mã_huyện'] = huyen
-                tables[0]['mã_xã'] = xa
-                tables[0]['search_type'] = type
-                df=pd.concat([df,tables[0]])
-        # driver.save_screenshot(f"screenshot_{tinh}_{huyen}_{page}.png")
-            path1 = f'C:\\Users\\Admin\\Documents\\BIDV\\data\\{tinh}_{huyen}_{xa}_{type}.csv'
-            df.to_csv(path1,index=False,encoding='utf-8-sig')
-            print(f"Done {tinh}_{huyen}_{xa}_{type}.csv")
+            table_element = driver.find_element(By.XPATH, search_types_html[search_types])
+            tables = pd.read_html(table_element.get_attribute("outerHTML"))
+            if len(tables[0]) < 5:
+                break
+            tables[0]['mã_tỉnh'] = tinh
+            tables[0]['mã_huyện'] = huyen
+            tables[0]['mã_xã'] = xa
+            tables[0]['search_type'] = search_types
+            df = pd.concat([df, tables[0]])
+            page += 1
+
+        if search_types in ["11", "12", "03"]:
+            df.columns = [x[0] + " " + x[1] if x[0] != x[1] else x[0] for x in df.columns]
+         
+        path1 = f'C:\\Users\\Admin\\PycharmProjects\\Crawl_data_gov\\Crawled_Data\\{tinh}_{huyen}_{xa}_{search_types}.csv'
+        df.to_csv(path1,index=False,encoding='utf-8-sig')
+        print(f"Done {tinh}_{huyen}_{xa}_{search_types}.csv")
+
+        end_time = time.time()
+        elapsed_time = end_time - start_time
+        log_file = open("log.txt", "a")
+        timestamp = time.strftime("%Y-%m-%d %H:%M:%S")
+
+        try:
+            number_of_records = len(df)
+            number_of_distinct_period = df["Kỳ lập bộ"].nunique()
+            number_of_unique_tax_code = df['Mã số thuế'].nunique()
+        except:
+            number_of_records = 0
+            number_of_distinct_period = 0
+            number_of_unique_tax_code = 0
+
+        task_description_1 = f"Task Crawl {xa}"
+        task_description_2 = f"Type: {search_types} - Number of records: {number_of_records} - Number of distinct period: {number_of_distinct_period} - Number of distinct tax code: {number_of_unique_tax_code} "
+        log_message = f"{timestamp} - {task_description_1} - {elapsed_time:.2f} seconds - {task_description_2}\n"
+        log_file.write(log_message)
+        log_file.close()
+
+        remain_crawl_code_list = crawl_code_list[i + 1:]
+        pd.DataFrame(remain_crawl_code_list, columns= ["remained_code"]).to_csv('remain_crawl_code_list.csv', index= False)
+
+        time.sleep(1)
     driver.quit()
     # return df
 
@@ -148,10 +184,11 @@ if __name__ == "__main__":
     while True:
         try:
             main()
-            if index == len(ds_xa)-1:
+            if index == len(crawl_code_list)-1:
                 break           
-        except:
-            print(f"Error at {ds_xa[index]}")
-            ds_xa = ds_xa[index:]
+        except Exception as e:
+            print(f"Error at {crawl_code_list [index]}")
+            print(e)
+            crawl_code_list  = crawl_code_list[index:]
 
     
